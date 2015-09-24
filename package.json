@@ -25,6 +25,7 @@
     "browserify-plugin",
     "watchify",
     "cache",
+    "file",
     "remember",
     "forget",
     "chokidar",
