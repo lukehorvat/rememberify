@@ -1,10 +1,34 @@
 {
-  "name": "browserify-cache",
+  "name": "rememberify",
   "version": "0.0.0",
-  "private": true,
+  "description": "File cache plugin for browserify. (Basically, watchify without the file watch mode!)",
+  "author": "Luke Horvat",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukehorvat/rememberify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukehorvat/rememberify/issues"
+  },
+  "main": "./index.js",
   "dependencies": {
     "object-assign": "4.0.1",
     "through2": "2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "browserify",
+    "browserify-plugin",
+    "watchify",
+    "cache",
+    "remember",
+    "forget",
+    "chokidar",
+    "gulp-watch",
+    "fsevents"
+  ]
 }
