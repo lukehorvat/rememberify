@@ -14,4 +14,17 @@ $ npm install rememberify
 
 ## Usage
 
-TODO.
+Register the plugin with a browserify instance:
+
+```javascript
+import browserify from "browserify";
+import rememberify from "rememberify";
+
+let b = browserify({ cache: {} }).plugin(rememberify);
+```
+
+And then when you receive a file system event, invalidate the cache:
+
+```javascript
+rememberify.forget(b, file);
+```
