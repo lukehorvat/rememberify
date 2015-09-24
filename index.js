@@ -22,3 +22,11 @@ module.exports = function(b) {
 
   return b;
 };
+
+module.exports.forget = function(b, file) {
+  var cache = b._options.cache;
+
+  if (cache) {
+    delete cache[file];
+  }
+};
