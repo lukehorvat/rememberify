@@ -2,7 +2,6 @@
 
 var objectAssign = require("object-assign");
 var through = require("through2");
-var path = require("path");
 
 module.exports = function(b) {
   var cache = b._options.cache;
