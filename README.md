@@ -1,4 +1,4 @@
-# rememberify [![NPM version](http://img.shields.io/npm/v/rememberify.svg?style=flat-square)](https://www.npmjs.org/package/rememberify)
+# rememberify [![NPM version](http://img.shields.io/npm/v/rememberify.svg?style=flat-square)](https://www.npmjs.org/package/rememberify) [![Build status](http://img.shields.io/travis/lukehorvat/rememberify.svg?style=flat-square)](https://travis-ci.org/lukehorvat/rememberify)
 
 File cache plugin for [browserify](http://browserify.org/).
 
