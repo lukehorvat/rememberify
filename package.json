@@ -12,11 +12,22 @@
     "url": "https://github.com/lukehorvat/rememberify/issues"
   },
   "main": "./index.js",
+  "scripts": {
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "test": "mocha"
+  },
   "dependencies": {
     "object-assign": "4.0.1",
     "through2": "2.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "12.0.0",
+    "husky": "0.10.1",
+    "mocha": "2.3.3",
+    "sinon": "1.17.2",
+    "temp-write": "2.0.1"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
